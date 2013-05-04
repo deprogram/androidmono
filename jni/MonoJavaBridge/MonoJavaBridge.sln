@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoJavaBridge", "JavaBridg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mono2Jni", "Mono2Jni\Mono2Jni.csproj", "{1276BA20-A085-4D52-8239-220E76524771}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.poop.bar", "..\..\..\..\Projects\com.poop.bar\com.poop.bar\com.poop.bar.csproj", "{AD197F8F-8057-43A8-A6C3-3777A7A992B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldConsole", "HelloWorldConsole\HelloWorldConsole.csproj", "{774D3AA3-CDD7-4224-89D3-FBA0B2EEB6BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,13 +33,13 @@ Global
 		{A3900426-8A60-473D-A454-3B5C124946D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3900426-8A60-473D-A454-3B5C124946D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3900426-8A60-473D-A454-3B5C124946D4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AD197F8F-8057-43A8-A6C3-3777A7A992B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD197F8F-8057-43A8-A6C3-3777A7A992B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD197F8F-8057-43A8-A6C3-3777A7A992B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD197F8F-8057-43A8-A6C3-3777A7A992B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{774D3AA3-CDD7-4224-89D3-FBA0B2EEB6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{774D3AA3-CDD7-4224-89D3-FBA0B2EEB6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{774D3AA3-CDD7-4224-89D3-FBA0B2EEB6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{774D3AA3-CDD7-4224-89D3-FBA0B2EEB6BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = ..\..\..\..\Projects\com.poop.bar\com.poop.bar\com.poop.bar.csproj
+		StartupItem = HelloWorldConsole\HelloWorldConsole.csproj
 		Policies = $0
 		$0.DotNetNamingPolicy = $1
 		$1.DirectoryNamespaceAssociation = None
