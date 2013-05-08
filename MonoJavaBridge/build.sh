@@ -10,5 +10,5 @@ mkdir -p bin
 #$MONO_CC -dynamiclib -o bin/libmonojavabridge.so -I /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Headers/ -I../../hostbuild/mono/ -I../../hostbuild/mono/eglib/src/ -liconv MonoJavaInterop/MonoJavaInterop.c ../../hostbuild/install/lib/libmono.0.dylib
 
 xbuild
-cd  $(dirname $0)/../../MonoActivity
+cd  $(dirname $0)/../MonoActivity
 ndk-build
