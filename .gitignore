@@ -9,4 +9,6 @@ MonoDevelop.Android/config.log
 MonoDevelop.Android/config.make
 hostbuild
 mono
+mono_arm
 libs
+*~
