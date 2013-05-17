@@ -7,8 +7,7 @@ obj
 MonoDevelop.Android/build
 MonoDevelop.Android/config.log
 MonoDevelop.Android/config.make
-hostbuild
+mono_builds
 mono
-mono_arm
 libs
 *~
