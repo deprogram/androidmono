@@ -8,6 +8,8 @@ MonoDevelop.Android/build
 MonoDevelop.Android/config.log
 MonoDevelop.Android/config.make
 mono_builds
+mono_builds.zip
 mono
 libs
 *~
+

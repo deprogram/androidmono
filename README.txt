@@ -1,64 +1,29 @@
----- setup ----
+---- Requirements ----
 
-# This README assumes that your Android NDK directory is located at ~/src/android-ndk.
-# Adjust any instructions as necessary.
-# The current supported Android NDK is Android NDK r4, and can be found at:
-# http://developer.android.com/sdk/ndk/index.html
+The Android NDK:
+http://developer.android.com/sdk/ndk/index.html
 
-# Get the androidmono repository which contains the build scripts and patches 
-# necessary to build mono.
-cd ~/src
-git clone git://github.com/koush/androidmono.git
+Once you have the NDK downloaded, set environment variable NDK to point to the root of the NDK.
 
-# Use the get-mono.sh script to check out the proper revision of mono from svn and 
-# apply any necessary patches. This step may take a while because it builds mono
-# and mcs so the assemblies are available for packaging in the APK.
-cd androidmono
+You must also create a standalone ndk environment. See $NDK/docs/STANDALONE-TOOLCHAIN.html for
+details on how to create one with the android NDK. This project requires the --platform=android-14
+option for the make-standalone-toolchain.sh script in the NDK.
+
+Once you've created a standalone toolchain, set environment variable NDK_STANDALONE to point to
+the root of the standalone toolchain you created.
+
+---- Building Mono ----
+
+This project is a work in progress. Currently the work has been in the get-mono.sh build script,
+which downloads mono from git, builds the monodroid assemblies, and two sets of ARM runtime binaries.
+You must first set the NDK and NDK_STANDALONE environment variables before calling ./get-mono.sh (see above).
+These binaries have not yet been tested in an actual running application (as I said, work in progress).
+
 ./get-mono.sh
 
----- building the mono binaries and jni bindings ----
+This will build the monodroid assemblies into ./mono_builds/assemblies/lib/monodroid, and the ARM runtime
+binaries into ./mono_builds/armeabi-v7a and ./mono_builds/armeabi.
 
-# This will call ndk-build in the MonoActivity directory and build the android.dll
-cd ~/src/androidmono/jni/MonoJavaBridge
-./build.sh
-
----- building and installing the mono APK ----
-
-cd ~/src/androidmono/MonoActivity
-ant install
-
----- running mono from the command line ----
-
-# start up and adb shell and navigate to the proper directory.
-adb shell
-cd /data/data/com.koushikdutta.mono
-
-# run the test.exe program which prints Hello World and retrieves and prints the
-# Yahoo! Homepage.
-./mono test.exe
-
----- rebuilding and using the JNI bindings (pre alpha, heavy development) ----
-
-1) Regenerating the androidsdk.xml from the android.jar in the SDK.
-The androidsdk.xml file is part of the repository now, and should generally not need
-to be regenerated. But if you want to tweak the XML at all, it can be done as follows.
-Import the jni/MonoJavaBridge/JavaObjectModelGenerator project into Eclipse as a standard
-Java application. Run the project. When it completes, the androidsdk.xml will be 
-created and placed in jni/MonoJavaBridge.
-
-2) Regenerating the android.dll source files.
-The android.dll sources are part of the repository now, and should generally not need to
-be regenerated unless you change the code generator. Instructions to regenerate are below.
-Open the MonoJavaBridge workspace. Run MonoDroid. The android project source files will be 
-regenerated.
-
-3) Testing the HelloWorldActivity application.
-
-# This builds the C# application. You can also open it in MonoDevelop and build it.
-cd jni/MonoJavaBridge/HelloWorld/
-xbuild
-
-# This builds the Android Eclipse application that wraps the C# application. You can
-# also use Eclipse to build/run this.
-cd Android
-ant install
+I am currently using my own fork of the mono repository at https://github.com/jeromiya/mono which
+contains a small patch to ./mono/mono/mini/main.c, and ./mono/mono/mini/Makefile.am.in which fixes
+a minor build issue. This is temporary until this build issue is resolved in the official repository.
