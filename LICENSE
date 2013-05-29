@@ -1,3 +1,15 @@
+Mono and its related code (runtime, class libraries, etc..) is licensed under
+several licenses. Although I do not currently have any of the mono code in
+this repository, I've included a copy of those licenses for your convenience in
+the mono_licenses directory. Please read these licences carefully if you
+intend to use mono.
+
+Some Jni4Net code is included in this repository. Jni4Net is licensed under
+the LGPL (TODO: include a copy of that license).
+
+As for this repository, unless otherwise specified, the contents of this repository
+are licensed under The MIT License (MIT), as presented below:
+
 The MIT License (MIT)
 
 Copyright (c) <year> <copyright holders>
@@ -19,3 +31,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
