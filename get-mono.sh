@@ -39,7 +39,7 @@ fi
 if [ -z "$1" ]
 then
     echo "--> No local mono directory supplied. Defaulting to the official Mono github repository. You can provide a local mono checkout using: $0 \<path-to-mono-git-repository\>"
-    MONO_GIT=https://github.com/JeroMiya/mono.git
+    MONO_GIT=https://github.com/mono/mono.git
 else
     MONO_GIT=$1/.git
 fi
