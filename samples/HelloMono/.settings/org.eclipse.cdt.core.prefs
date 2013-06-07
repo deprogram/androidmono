@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/com.android.toolchain.gcc.1195867738/MONO_INSTALL/delimiter=;
+environment/project/com.android.toolchain.gcc.1195867738/MONO_INSTALL/operation=replace
+environment/project/com.android.toolchain.gcc.1195867738/MONO_INSTALL/value=../../../mono_builds
+environment/project/com.android.toolchain.gcc.1195867738/append=true
+environment/project/com.android.toolchain.gcc.1195867738/appendContributed=true

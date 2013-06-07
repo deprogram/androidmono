@@ -1,0 +1,14 @@
+
+**** Build of configuration Default for project HelloMono ****
+
+C:\Users\U0104585\Desktop\android-ndk-r8e\ndk-build.cmd all 
+"Compile thumb : hello-mono <= HelloMono.c
+jni/HelloMono.c: In function 'Java_com_androidmono_HelloMono_MainActivity_stringFromJNI':
+jni/HelloMono.c:106:11: warning: assignment makes pointer from integer without a cast [enabled by default]
+jni/HelloMono.c:111:13: warning: assignment makes pointer from integer without a cast [enabled by default]
+jni/HelloMono.c:125:21: warning: initialization makes pointer from integer without a cast [enabled by default]
+SharedLibrary  : libhello-mono.so
+Install        : libhello-mono.so => libs/armeabi/libhello-mono.so
+Install        : libmonosgen-2.0.so => libs/armeabi/libmonosgen-2.0.so
+
+**** Build Finished ****

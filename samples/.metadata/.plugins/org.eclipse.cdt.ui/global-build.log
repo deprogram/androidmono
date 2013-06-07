@@ -1,0 +1,141 @@
+
+**** Build of configuration Default for project HelloMono ****
+
+sh ndk-build all 
+sh: ndk-build: No such file or directory
+
+**** Build Finished ****
+
+**** Build of configuration Default for project HelloMono ****
+
+sh ndk-build all 
+sh: ndk-build: No such file or directory
+
+**** Build Finished ****
+
+**** Build of configuration Default for project HelloMono ****
+
+C:\Users\U0104585\Desktop\android-ndk-r8e\ndk-build.cmd all 
+Android NDK: ERROR:jni/Android.mk:monosgen-2.0: LOCAL_SRC_FILES points to a missing file    
+C:/Users/U0104585/Desktop/android-ndk-r8e/build/core/prebuilt-library.mk:45: *** Android NDK: Aborting    .  Stop.
+Android NDK: Check that jni/C:\Users\U0104585\Documents\GitHub\androidmono\mono_builds/armeabi/lib/libmonosgen-2.0.so exists  or that its path is correct   
+
+**** Build Finished ****
+
+**** Build of configuration Default for project HelloMono ****
+
+C:\Users\U0104585\Desktop\android-ndk-r8e\ndk-build.cmd all 
+Android NDK: ERROR:jni/Android.mk:monosgen-2.0: LOCAL_SRC_FILES points to a missing file    
+C:/Users/U0104585/Desktop/android-ndk-r8e/build/core/prebuilt-library.mk:45: *** Android NDK: Aborting    .  Stop.
+Android NDK: Check that jni/../../mono_builds/armeabi/lib/libmonosgen-2.0.so exists  or that its path is correct   
+
+**** Build Finished ****
+
+**** Build of configuration Default for project HelloMono ****
+
+C:\Users\U0104585\Desktop\android-ndk-r8e\ndk-build.cmd all 
+Android NDK: ERROR:jni/Android.mk:monosgen-2.0: LOCAL_SRC_FILES points to a missing file    
+Android NDK: Check that jni/../../../mono_builds/armeabi/lib/libmonosgen-2.0.so exists  or that its path is correct   
+C:/Users/U0104585/Desktop/android-ndk-r8e/build/core/prebuilt-library.mk:45: *** Android NDK: Aborting    .  Stop.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project HelloMono ****
+
+C:\Users\U0104585\Desktop\android-ndk-r8e\ndk-build.cmd all 
+Android NDK: ERROR:jni/Android.mk:monosgen-2.0: LOCAL_SRC_FILES points to a missing file    
+Android NDK: Check that jni/../../../mono_builds/armeabi/lib/libmonosgen-2.0.so exists  or that its path is correct   
+C:/Users/U0104585/Desktop/android-ndk-r8e/build/core/prebuilt-library.mk:45: *** Android NDK: Aborting    .  Stop.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project HelloMono ****
+
+C:\Users\U0104585\Desktop\android-ndk-r8e\ndk-build.cmd all 
+Android NDK: ERROR:jni/Android.mk:monosgen-2.0: LOCAL_SRC_FILES points to a missing file    
+C:/Users/U0104585/Desktop/android-ndk-r8e/build/core/prebuilt-library.mk:45: *** Android NDK: Aborting    .  Stop.
+Android NDK: Check that jni/../../../mono_builds/armeabi/lib/libmonosgen-2.0.so exists  or that its path is correct   
+
+**** Build Finished ****
+
+**** Build of configuration Default for project HelloMono ****
+
+C:\Users\U0104585\Desktop\android-ndk-r8e\ndk-build.cmd all 
+Install        : libHelloMono.so => libs/armeabi/libHelloMono.so
+Install        : libmonosgen-2.0.so => libs/armeabi/libmonosgen-2.0.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project HelloMono ****
+
+C:\Users\U0104585\Desktop\android-ndk-r8e\ndk-build.cmd all 
+"Compile thumb : hello-mono <= HelloMono.c
+jni/HelloMono.c: In function 'Java_com_androidmono_HelloMono_MainActivity_stringFromJNI':
+jni/HelloMono.c:106:11: warning: assignment makes pointer from integer without a cast [enabled by default]
+jni/HelloMono.c:111:13: warning: assignment makes pointer from integer without a cast [enabled by default]
+jni/HelloMono.c:125:21: warning: initialization makes pointer from integer without a cast [enabled by default]
+SharedLibrary  : libhello-mono.so
+Install        : libhello-mono.so => libs/armeabi/libhello-mono.so
+Install        : libmonosgen-2.0.so => libs/armeabi/libmonosgen-2.0.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project HelloMono ****
+
+C:\Users\U0104585\Desktop\android-ndk-r8e\ndk-build.cmd all 
+Install        : libhello-mono.so => libs/armeabi/libhello-mono.so
+Install        : libmonosgen-2.0.so => libs/armeabi/libmonosgen-2.0.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project HelloMono ****
+
+C:\Users\U0104585\Desktop\android-ndk-r8e\ndk-build.cmd all 
+Install        : libhello-mono.so => libs/armeabi/libhello-mono.so
+Install        : libmonosgen-2.0.so => libs/armeabi/libmonosgen-2.0.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project HelloMono ****
+
+C:\Users\U0104585\Desktop\android-ndk-r8e\ndk-build.cmd all 
+Install        : libhello-mono.so => libs/armeabi/libhello-mono.so
+Install        : libmonosgen-2.0.so => libs/armeabi/libmonosgen-2.0.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project HelloMono ****
+
+C:\Users\U0104585\Desktop\android-ndk-r8e\ndk-build.cmd all 
+Install        : libhello-mono.so => libs/armeabi/libhello-mono.so
+Install        : libmonosgen-2.0.so => libs/armeabi/libmonosgen-2.0.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project HelloMono ****
+
+C:\Users\U0104585\Desktop\android-ndk-r8e\ndk-build.cmd all 
+"Compile thumb : hello-mono <= HelloMono.c
+jni/HelloMono.c: In function 'Java_com_androidmono_HelloMono_MainActivity_stringFromJNI':
+jni/HelloMono.c:106:11: warning: assignment makes pointer from integer without a cast [enabled by default]
+jni/HelloMono.c:111:13: warning: assignment makes pointer from integer without a cast [enabled by default]
+jni/HelloMono.c:125:21: warning: initialization makes pointer from integer without a cast [enabled by default]
+SharedLibrary  : libhello-mono.so
+Install        : libhello-mono.so => libs/armeabi/libhello-mono.so
+Install        : libmonosgen-2.0.so => libs/armeabi/libmonosgen-2.0.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project HelloMono ****
+
+C:\Users\U0104585\Desktop\android-ndk-r8e\ndk-build.cmd all 
+"Compile thumb : hello-mono <= HelloMono.c
+jni/HelloMono.c: In function 'Java_com_androidmono_HelloMono_MainActivity_stringFromJNI':
+jni/HelloMono.c:106:11: warning: assignment makes pointer from integer without a cast [enabled by default]
+jni/HelloMono.c:111:13: warning: assignment makes pointer from integer without a cast [enabled by default]
+jni/HelloMono.c:125:21: warning: initialization makes pointer from integer without a cast [enabled by default]
+SharedLibrary  : libhello-mono.so
+Install        : libhello-mono.so => libs/armeabi/libhello-mono.so
+Install        : libmonosgen-2.0.so => libs/armeabi/libmonosgen-2.0.so
+
+**** Build Finished ****
