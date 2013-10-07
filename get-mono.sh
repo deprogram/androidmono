@@ -154,7 +154,7 @@ else
     pushd mono
     echo "--> Running configure for armv7-a-linux-androideabi"
     ./autogen.sh --build=$BUILD --host=arm-linux-androideabi --target=arm-linux-androideabi --enable-nls=no --with-mcs-docs=no --with-mcs-build=no --prefix=$INSTALL_PREFIX
-    make clean && make && make install
+    make clean && make && make -i install
     checkresult "FAILED: building armeabi was not successful"
     popd
 fi
@@ -172,7 +172,7 @@ else
     pushd mono
     echo "--> Running configure for armeabi-v7a"
     ./autogen.sh --build=$BUILD --host=armv7-a-linux-androideabi --target=armv7-a-linux-androideabi --enable-nls=no --with-mcs-docs=no --with-mcs-build=no --prefix=$INSTALL_PREFIX
-    make clean && make && make install
+    make clean && make && make -i install
     checkresult "FAILED: building armeabi-v7a was not successful"
     popd
 fi
